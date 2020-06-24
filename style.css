@@ -1,0 +1,19 @@
+div {
+    border: 2px solid black;
+    padding: 15px;
+    width: 300px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+}
+
+div.first {
+    border-top-width: 2px;
+}
+
+div.last {
+    border-bottom-width: 2px;
+}
+
+div:hover {
+    background-color: coral;
+}
